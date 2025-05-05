@@ -7,7 +7,7 @@ const home = () => {
 
   const {allCoin,currency} =useContext(CoinContext);
   const [displayCoin,setDisplayCoin]=useState([]);
-  const [input , setInput]=useState(' ');
+  const [input , setInput]=useState('');
 
   const inputHandler=(event)=>{
     setInput(event.target.value);
@@ -26,7 +26,7 @@ const home = () => {
   useEffect(()=>{
         setDisplayCoin(allCoin);
   },[allCoin])
-
+ 
 
   return (
     <div className='home'>

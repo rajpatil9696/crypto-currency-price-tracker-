@@ -20,7 +20,7 @@
 }
 
 .coin{
-    padding: 0 20px;
+    padding: 0 30px;
 
 }
 .coin-name{
@@ -41,7 +41,7 @@
 }
 .coin-chart{
     max-width: 600px;
-    height: 250px;
+    height: 300px;
     margin: auto;
 }
 
